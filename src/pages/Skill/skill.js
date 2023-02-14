@@ -7,6 +7,7 @@ function Skill() {
       <div style={{
         display: 'flex',
         justifyContent: 'center',
+        
         margin: '20px',
       }}>
         <h1>Skills</h1>
@@ -15,6 +16,7 @@ function Skill() {
       <div style={{
         display: 'flex',
         justifyContent: 'center',
+        flexDirection: 'row',
       }}>
         {[
           'Dark',
@@ -23,7 +25,7 @@ function Skill() {
             bg={variant.toLowerCase()}
             key={variant}
             text={variant.toLowerCase() === 'light' ? 'dark' : 'white'}
-            style={{ width: '25rem', margin: '20px' }}
+            style={{ width: '24rem', margin: '20px' }}
             className="mb-2"
           >
             <Card.Header>Frontend</Card.Header>

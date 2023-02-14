@@ -33,7 +33,6 @@ function NavigationBar() {
                                     <Nav.Link onClick={() => navigate('/educational')}>Educational Background</Nav.Link>
                                     <Nav.Link onClick={() => navigate('/skill')}>Skills</Nav.Link>
                                     <Nav.Link onClick={() => navigate('/portofolio')}>Portofolio</Nav.Link>
-
                                 </Nav>
                             </Offcanvas.Body>
                         </Navbar.Offcanvas>
