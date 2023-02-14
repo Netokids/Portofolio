@@ -5,7 +5,6 @@ import Educational from './pages/Educational/educational.js';
 import Navigation from './pages/Navbar/navbar.js';
 import Skill from './pages/Skill/skill.js';
 import Portofolio from './pages/Portofolio/portofolio';
-import Footer from './pages/Footer/foooter';
 import { Route, Routes } from 'react-router-dom';
 
 
@@ -20,7 +19,6 @@ function App() {
         <Route path="/portofolio" element={<Portofolio/>} />
         <Route path="*" element={<h1>404 Not Found</h1>} />
       </Routes>
-      <Footer />
     </>
   );
 }
