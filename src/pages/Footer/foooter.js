@@ -6,8 +6,8 @@ function Footer () {
             <div style={{
                 display: 'flex',
                 justifyContent: 'center',
-                backgroundColor: '#EEEEEE',
-                color: 'black',
+                backgroundColor: 'black',
+                color: 'white',
                 height: '50px',
                 marginTop: '20px',
             }}>
