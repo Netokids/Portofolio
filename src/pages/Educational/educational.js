@@ -43,7 +43,7 @@ function educational() {
                                 width: '100px',
                                 height: '100px',
                             }}></Card.Img>
-                            <Card.Title>Universitas Binaniaga Bogor</Card.Title>
+                            <Card.Title>Universitas Binaniaga Indonesia</Card.Title>
                             <Card.Text>
                                 Information Technology
                             </Card.Text>
