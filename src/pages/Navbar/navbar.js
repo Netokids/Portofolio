@@ -12,7 +12,7 @@ function NavigationBar() {
                 <Navbar key={expand} bg="light" expand={expand} className="mb-3">
                     <Container fluid>
                         <Navbar.Brand style={{
-                            marginLeft: '50px',
+                            marginLeft: '25px',
                         }} onClick={() => navigate('/')}>
                             My Portofolio
                         </Navbar.Brand>
